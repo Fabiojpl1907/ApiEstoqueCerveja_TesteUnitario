@@ -29,7 +29,7 @@ A seguir temos
 
 #### **Teste Unitários** 
 
-O teste unitário, se baseia no conceito que , não devemos esperar ter todo o produto pronto para então testar, isto podeia ser um desatre,  ao invés,  se concentra na verificação da menor unidade do projeto de software. É realizado o teste de uma unidade lógica, com uso de dados suficientes para se testar apenas à lógica da unidade em questão.
+O teste unitário, se baseia no conceito que , não devemos esperar ter todo o produto pronto para então testar, isto poderia ser um desastre,  ao invés,  se concentra na verificação da menor unidade do projeto de software. É realizado o teste de uma unidade lógica, com uso de dados suficientes para se testar apenas à lógica da unidade em questão.
 
 Os principais fatores que motivam o uso sistemático da prática de testes unitários:
 
