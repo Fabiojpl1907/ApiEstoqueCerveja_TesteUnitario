@@ -22,8 +22,10 @@ As seguintes tecnologias  são utilizadas
 
 A seguir temos 
 
-1. Principais conceitos e frameworg utilizados na arquitetuta de teste , 
+1. Principais conceitos e framework utilizados na arquitetura de teste , 
 2. Mapeamento das implantações  de  teste  		
+
+### *Conceitos*  
 
 #### **Teste Unitários** 
 
@@ -44,7 +46,31 @@ Quando fazer Teste Unitário?
 
 ​		Diariamente:  Rode testes várias vezes ao dia (é fácil corrigir pequenos problemas do que corrigir um “problemão” somente no final do projeto).
 
-​		
+​	
+
+#### **BDD** 
+
+"Give / When / Then" é um estilo de representar testes - ou  especificar  o comportamento de um sistema usando "SpecificationByExample" . É uma abordagem desenvolvida por Daniel Terhorst-North e Chris Matts como parte do Behavior-Driven Development (BDD).  Pode ser considerada  uma reformulação do padrão de teste de quatro fases .
+
+A ideia base é dividir a escrita de um cenário (ou teste) em três seções:
+
+1. Given:  descreve o estado do mundo antes de começar o comportamento que está especificando neste cenário ( when) . Pode pensar como as pré-condições para o teste.
+2. When :  é o comportamento sendo especificado.
+3.  Then descreve as mudanças esperadas devido ao comportamento especificado.
+
+
+
+#### **TDD** 
+
+**TDD** -**Test Driven Development**, ou *Desenvolvimento Orientado a Testes*. 
+
+A ideia do TDD é trabalhar em ciclos,  na seguinte ordem:
+
+- Primeiro, escreva um teste unitário que inicialmente irá falhar, tendo em vista que o código ainda não foi implementado;
+- Crie o código que satisfaça esse teste, ou seja: implemente a funcionalidade em questão. Essa primeira implementação deverá satisfazer imediatamente o teste que foi escrito no ciclo anterior;
+- Quando o código estiver implementado e o teste satisfeito, refatore o código para melhorar pontos como legibilidade. Logo após, execute o teste novamente. A nova versão do código também deverá passar sem que seja necessário modificar o teste escrito inicialmente.
+
+ TDD não é uma forma de escrever teste: ele é uma metodologia para desenvolvimento e escrita código. 
 
 #### **DTO** 
 
@@ -54,9 +80,11 @@ Data Transfer Object (DTO) ou Transfer Object é um padrão de projetos ( Projet
 
 A ideia consiste basicamente em agrupar um conjunto de atributos numa classe simples de forma a otimizar a comunicação.
 
+O DTO é uma forma de desenvolver um aplicação e não é diretamente ligado a teste, porem, uUtilizar este conceito ira facilitar a criações dos testes. 
 
 
-#### **Os Frameworks de testes utilizados são** 
+
+### ***Os Frameworks de testes utilizados no projeto*** 
 
 #### JUnit  
 
@@ -93,9 +121,9 @@ Os matchers Hamcrest, na prática, são utilizados com o método assertThat() do
 
 
 
-#### Divisão de desenvolvimento e comentários   
+### *Divisão de desenvolvimento e comentários*   
 
-O desenvolvimentoe comentários  segue a divisão utilizada nos videos de apresentação do projeto na Dia.  
+O desenvolvimento e comentários  segue a divisão utilizada nos videos de apresentação do projeto na Dio.  Ver comentários mais direcionados nos proprios códigos. 
 
 ### **Parte 1, 2**,3  
 
